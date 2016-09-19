@@ -71,7 +71,7 @@ int ArrayList::getCount()
 int main()
 {
 	// create ArrayList object
-	class ArrayList arrlist;
+	 ArrayList arrlist;
 	
 	// print out initial count, which should be 0.
 	cout<<"Initial Count: "<<arrlist.getCount()<<endl;
@@ -86,9 +86,9 @@ int main()
 	if(arrlist.deleteElement(0))
 		cout<<"Element at index 0 deleted"<<endl;
 	cout<<"Initial Count: "<<arrlist.getCount()<<endl;
-
-	// test getElement() function, which has a pre-condition
-	for(int i = 0; i < arrlist.getCount(); i++)
+, which has a pre-condition
+	for(int i = 0; i < arrlist.getC
+	// test getElement() functionount(); i++)
 		cout<<"ArrayList @ index: "<<i<<" : "<<arrlist.getElement(i)<<endl;
 	
 	// test setElement() function, which has a pre-condition
